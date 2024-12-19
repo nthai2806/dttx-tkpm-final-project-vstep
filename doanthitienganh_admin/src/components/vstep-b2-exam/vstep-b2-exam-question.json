@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_vstep_b2_exam_vstep_b2_exam_questions",
+  "info": {
+    "displayName": "VSTEP B2 Exam - Question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "a": {
+      "type": "string"
+    },
+    "b": {
+      "type": "string"
+    },
+    "c": {
+      "type": "string"
+    },
+    "d": {
+      "type": "string"
+    },
+    "result": {
+      "type": "enumeration",
+      "enum": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,116 @@
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: #171717;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/* Custom */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f2f5; /* Màu nền */
+  color: #333; /* Màu chữ */
+}
+
+/* Logo */
+.logo {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.logo h1 {
+  color: #333;
+}
+
+/* Header */
+.ant-layout-header {
+  background-color: #fff !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px !important;
+}
+
+.ant-menu-horizontal {
+  border-bottom: none;
+  background-color: transparent !important;
+}
+.ant-menu-horizontal .ant-menu-item a,
+.ant-menu-horizontal .ant-menu-item a:hover,
+.ant-menu-horizontal .ant-menu-submenu-open a {
+  color: #333;
+}
+.ant-menu-horizontal > .ant-menu-item-selected a,
+.ant-menu-horizontal .ant-menu-item:hover a,
+.ant-menu-horizontal .ant-menu-item-active a {
+  color: #1890ff !important;
+}
+
+.ant-breadcrumb {
+  margin-bottom: 0;
+}
+.ant-breadcrumb a {
+  font-weight: 500;
+  color: #666;
+}
+
+/* Content */
+.ant-layout-content {
+  margin: 20px !important;
+  padding: 20px !important;
+}
+.ant-card {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+/* Button */
+.ant-btn-primary {
+  background-color: #1890ff !important;
+  border-color: #1890ff !important;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background-color: #40a9ff !important;
+  border-color: #40a9ff !important;
+}
+.ant-avatar {
+  cursor: pointer;
+}
+.ant-dropdown-menu-item,
+.ant-dropdown-menu-item a {
+  font-weight: 500;
+}

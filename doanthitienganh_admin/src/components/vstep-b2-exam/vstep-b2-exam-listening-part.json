@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_vstep_b2_exam_vstep_b2_exam_listening_parts",
+  "info": {
+    "displayName": "VSTEP B2 Exam - Listening Part",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "listenings": {
+      "displayName": "VSTEP B2 Exam - Listening",
+      "type": "component",
+      "repeatable": true,
+      "component": "vstep-b2-exam.vstep-b2-exam-listening",
+      "required": true
+    }
+  }
+}

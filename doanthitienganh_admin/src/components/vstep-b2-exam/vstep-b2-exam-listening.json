@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_vstep_b2_exam_vstep_b2_exam_listenings",
+  "info": {
+    "displayName": "VSTEP B2 Exam - Listening",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "audio": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files",
+        "audios"
+      ]
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vstep-b2-exam.vstep-b2-exam-question",
+      "required": true
+    },
+    "audioScript": {
+      "type": "text"
+    }
+  }
+}

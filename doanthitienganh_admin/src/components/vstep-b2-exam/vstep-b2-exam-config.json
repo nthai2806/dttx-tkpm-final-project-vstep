@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_vstep_b2_exam_vstep_b2_exam_configs",
+  "info": {
+    "displayName": "Vstep B2 Exam Config"
+  },
+  "options": {},
+  "attributes": {
+    "readingTimebox": {
+      "type": "integer"
+    },
+    "listeningTimebox": {
+      "type": "integer"
+    },
+    "writingTimebox": {
+      "type": "integer"
+    },
+    "speakingTimebox": {
+      "type": "integer"
+    }
+  }
+}

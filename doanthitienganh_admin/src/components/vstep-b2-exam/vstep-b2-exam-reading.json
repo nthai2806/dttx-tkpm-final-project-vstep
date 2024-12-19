@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_vstep_b2_exam_vstep_b2_exam_readings",
+  "info": {
+    "displayName": "VSTEP B2 Exam - Reading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vstep-b2-exam.vstep-b2-exam-question",
+      "max": 10
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "licenseKey": "eyJhbGciOiJFUzI1NiJ9.eyJleHAiOjE3NjU0OTc1OTksImp0aSI6ImE0ZDYxMzM1LTdiMTQtNDk0OS1hZWYxLTgwYTliNDVlYTQzYSIsInVzYWdlRW5kcG9pbnQiOiJodHRwczovL3Byb3h5LWV2ZW50LmNrZWRpdG9yLmNvbSIsImRpc3RyaWJ1dGlvbkNoYW5uZWwiOlsiY2xvdWQiLCJkcnVwYWwiXSwiZmVhdHVyZXMiOlsiRFJVUCIsIkJPWCJdLCJ2YyI6ImM2MWJiOGNiIn0.rRykXBvxKhlbz9LU8XMgLrKOhFBDd4rCtBsqz2hXfZ-MHuLdnrXaDD71Kc24wPYr8S9q9pKUyU7Mn00CX7J9Tg",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}
